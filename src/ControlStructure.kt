@@ -4,6 +4,8 @@ fun main() {
     printMap()
     printSet()
     printListWithIndex()
+    printForLoopIncludeLastIndex()
+    printForLoopExcludeLastIndex()
 }
 
 fun updateWeather(degrees: Int) {
@@ -58,5 +60,15 @@ fun printSet() {
     )
     for ((key, value) in set) {
         println("key: $key, value: $value")
+    }
+}
+fun printForLoopIncludeLastIndex(){
+    for (i in 1..9){
+        print("i: $i ")
+    }
+}
+fun printForLoopExcludeLastIndex(){
+    for (i in 1 until 9){
+        print("i: $i ")
     }
 }
