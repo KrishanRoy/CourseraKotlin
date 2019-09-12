@@ -62,28 +62,49 @@ fun printSet() {
         println("key: $key, value: $value") //I tried to write setOf instead of mapOf and it still worked due to the Pair<> function
     }
 }
-fun printForLoopIncludeLastIndex(){
-    for (i in 1..9){
+
+fun printForLoopIncludeLastIndex() {
+    for (i in 1..9) {
         print("i: $i ") // should print from 1 to 9
     }
 }
-fun printForLoopExcludeLastIndex(){
-    for (i in 1 until 9){
+
+fun printForLoopExcludeLastIndex() {
+    for (i in 1 until 9) {
         print("i: $i ") // pretty obvious.. should print from 1 to 8 and exclude 9
     }
 }
-fun main (){
-    printForLoopWithSteps()
-    printCharacterPlusOne()
-}
-fun printForLoopWithSteps(){
-    for (i in 10 downTo 1 step 2){
-        print("i stepping two down: $i " )  //should print 10, 8, 6, 4, 2 and then stop
+
+fun printForLoopWithSteps() {
+    for (i in 10 downTo 1 step 2) {
+        print("i stepping two down: $i ")  //should print 10, 8, 6, 4, 2 and then stop
     }
 }
 
-fun printCharacterPlusOne(){
-    for (ch in "abcd"){
+fun printCharacterPlusOne() {
+    for (ch in "abcd") {
         print(ch + 1) //should print a + 1 --> b and b + 1 --> c etc....(end result --> bcde)
+    }
+}
+
+fun isValidIdentifierr(input: String): Boolean = (input[0].isLetter() || input[0] == '_' || input.isNotEmpty())
+
+fun main() {
+    printForLoopWithSteps()
+    printCharacterPlusOne()
+
+    println(isValidIdentifier("name"))   // true
+    println(isValidIdentifier("_name"))  // true
+    println(isValidIdentifier("_12"))    // true
+    println(isValidIdentifier(""))       // false
+    println(isValidIdentifier("012"))    // false
+    println(isValidIdentifier("no$"))    // false
+}
+fun isValidIdentifier(s: String): Boolean {
+    val list = listOf('!', '@', '#', '$', '%', '^', '&', '*', '(', ')')
+    return when {
+        s.isEmpty() || s.toCharArray().any { it in list } -> false
+        s[0].isLetter() || s[0] == '_' -> true
+        else -> false
     }
 }
