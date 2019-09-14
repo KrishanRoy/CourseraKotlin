@@ -1,3 +1,5 @@
+import java.lang.StringBuilder
+
 fun main1() {
     println("today's weather ${updateWeather(5)}")
     print()
@@ -99,7 +101,14 @@ fun main() {
     println(isValidIdentifier(""))       // false
     println(isValidIdentifier("012"))    // false
     println(isValidIdentifier("no$"))    // false
+
+    println("repeating the string five times: ${"ab".repeat(n = 5)}")
+    println("repeating the string five times:${"ab".repeat(n = 9)}")
+
+    println("this method should return d: ${"abcd".lastChar()}")
+    println("Should print 'b' even though the extension function does otherwise : ${"abc".get(1)}") //Member function gets priority over any extension function
 }
+
 fun isValidIdentifier(s: String): Boolean {
     val list = listOf('!', '@', '#', '$', '%', '^', '&', '*', '(', ')')
     return when {
@@ -108,3 +117,15 @@ fun isValidIdentifier(s: String): Boolean {
         else -> false
     }
 }
+
+fun String.repeat(n: Int): String {
+    val sb = StringBuilder(n * this.length)
+    for (i in 1..n) {
+        sb.append(this)
+    }
+    return sb.toString()
+}
+
+fun String.lastChar(): Char = get(length - 1)
+
+fun String.get(index: Int): Char = '*' //extension function will not win over the member function
