@@ -106,6 +106,7 @@ fun main() {
     println("repeating the string five times:${"ab".repeat(n = 9)}")
 
     println("this method should return d: ${"abcd".lastChar()}")
+    println("Should print 'b' even though the extension function does otherwise : ${"abc".get(1)}") //Member function gets priority over any extension function
 }
 
 fun isValidIdentifier(s: String): Boolean {
@@ -126,3 +127,5 @@ fun String.repeat(n: Int): String {
 }
 
 fun String.lastChar(): Char = get(length - 1)
+
+fun String.get(index: Int): Char = '*' //extension function will not win over the member function
