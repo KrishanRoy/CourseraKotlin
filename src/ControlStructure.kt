@@ -129,3 +129,18 @@ fun String.repeat(n: Int): String {
 fun String.lastChar(): Char = get(length - 1)
 
 fun String.get(index: Int): Char = '*' //extension function will not win over the member function
+
+data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
+
+fun evaluateGuess(secret: String, guess: String): Evaluation {
+    val allOptions = "ABCDEF"
+    //to find the correct position, I am zipping both the secret and the guess and checking if they are same
+    val rightPosition = secret.zip(guess).count { it.first == it.second }
+    val allCommonLetters = allOptions.sumBy { ch ->
+        // Line 11 counts how many times each option happens in both secret and the guess and then takes the lower one
+        secret.count { it == ch }.coerceAtMost(guess.count { it == ch })
+    }
+    //Line 14 is self-explanatory --> we subtract all the rightPositions from all the common numbers to get the misplaced Chars
+    val misPlacedLetters = allCommonLetters - rightPosition
+    return Evaluation(rightPosition = rightPosition, wrongPosition = misPlacedLetters)
+}
