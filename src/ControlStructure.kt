@@ -143,8 +143,9 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
     //Line 14 is self-explanatory --> we subtract all the rightPositions from all the common numbers to get the misplaced Chars
     val misPlacedLetters = allCommonLetters - rightPosition
     return Evaluation(rightPosition = rightPosition, wrongPosition = misPlacedLetters)
+
 }
-un String.isNice(): Boolean {
+fun String.isNice(): Boolean {
     val noBaBeBu = setOf("ba", "be", "bu").none() { this.contains(it) }
     val checkIfItHasThreeVowels = count { it in "aeiou" } >= 3
     val checkIfItHasTwoDoubleConsecutive = zipWithNext().any { it.first == it.second }
