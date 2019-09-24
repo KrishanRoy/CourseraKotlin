@@ -144,3 +144,9 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
     val misPlacedLetters = allCommonLetters - rightPosition
     return Evaluation(rightPosition = rightPosition, wrongPosition = misPlacedLetters)
 }
+un String.isNice(): Boolean {
+    val noBaBeBu = setOf("ba", "be", "bu").none() { this.contains(it) }
+    val checkIfItHasThreeVowels = count { it in "aeiou" } >= 3
+    val checkIfItHasTwoDoubleConsecutive = zipWithNext().any { it.first == it.second }
+    return listOf(noBaBeBu, checkIfItHasThreeVowels, checkIfItHasTwoDoubleConsecutive).count { it } >= 2
+}
