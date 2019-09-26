@@ -101,12 +101,19 @@ fun main() {
     println(isValidIdentifier(""))       // false
     println(isValidIdentifier("012"))    // false
     println(isValidIdentifier("no$"))    // false
+    unexpectedSum()
 
-    println("repeating the string five times: ${"ab".repeat(n = 5)}")
+    println("    repeating the string five times: ${"ab".repeat(n = 5)}")
     println("repeating the string five times:${"ab".repeat(n = 9)}")
 
     println("this method should return d: ${"abcd".lastChar()}")
     println("Should print 'b' even though the extension function does otherwise : ${"abc".get(1)}") //Member function gets priority over any extension function
+}
+fun unexpectedSum(){
+    val x: Int? = 1
+    val y: Int = 2
+    val s1: Int = x?:0 + y
+    print(s1)
 }
 
 fun isValidIdentifier(s: String): Boolean {
