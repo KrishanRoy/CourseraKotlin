@@ -109,11 +109,20 @@ fun main() {
     println("this method should return d: ${"abcd".lastChar()}")
     println("Should print 'b' even though the extension function does otherwise : ${"abc".get(1)}") //Member function gets priority over any extension function
 }
-fun unexpectedSum(){
+
+fun unexpectedSum() {
     val x: Int? = 1
     val y: Int = 2
-    val s1: Int = x?:0 + y
+    val s1: Int = x ?: 0 + y
     print(s1)
+}
+
+fun lambda() {
+    val map = hashMapOf<String, Int>()
+    map["house"] = 1
+    map["room"] = 4
+    map["bed"] = 5
+    map.mapValues { entry -> "${entry.key}->${entry.value}!" }
 }
 
 fun isValidIdentifier(s: String): Boolean {
@@ -152,6 +161,7 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
     return Evaluation(rightPosition = rightPosition, wrongPosition = misPlacedLetters)
 
 }
+
 fun String.isNice(): Boolean {
     val noBaBeBu = setOf("ba", "be", "bu").none() { this.contains(it) }
     val checkIfItHasThreeVowels = count { it in "aeiou" } >= 3
