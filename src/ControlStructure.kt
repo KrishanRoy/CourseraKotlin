@@ -111,9 +111,9 @@ fun main() {
 }
 
 fun unexpectedSum() {
-    val x: Int? = 1
+    val x: Int? = 5
     val y: Int = 2
-    val s1: Int = x ?: 0 + y
+    val s1: Int = x ?: 0 + y //it will print only 5 and ignore the rest after the elvis.
     print(s1)
 }
 
@@ -167,4 +167,11 @@ fun String.isNice(): Boolean {
     val checkIfItHasThreeVowels = count { it in "aeiou" } >= 3
     val checkIfItHasTwoDoubleConsecutive = zipWithNext().any { it.first == it.second }
     return listOf(noBaBeBu, checkIfItHasThreeVowels, checkIfItHasTwoDoubleConsecutive).count { it } >= 2
+}
+fun mapMore(){
+    // Also immutable by default
+    val alphaMap: Map<String, Int> = mapOf("a" to 1, "b" to 2, "c" to 3) // Only use in non-critical code-paths
+    for ((k, v) in alphaMap) {
+        println("Key: $k, Value: $v")
+    }
 }
