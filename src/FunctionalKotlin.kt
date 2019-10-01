@@ -9,11 +9,17 @@ fun main() {
         Hero("First Mate", 29, MALE),
         Hero("Sir Stephen", 37, MALE)
     )
-    print(heroes.lastOrNull()?.name)
-    print(heroes.firstOrNull()?.age)
-    print(heroes.firstOrNull { it.age == 30 }) //should print null as their is no Heo with an age of 30
+    println(heroes.lastOrNull()?.name)
+    println(heroes.firstOrNull()?.age)
+    println(heroes.firstOrNull { it.age == 30 }) //should print null as their is no Heo with an age of 30
     //print(heroes.first{it.age == 30}.name) // throws an exception
-    print(heroes.filter { it.age < 30 }[0].name)
+    println(heroes.filter { it.age < 30 }[0].name)
+    val (youngest, oldest) = heroes.partition { it.age < 30 }
+    println("youngest size: ${youngest.size} and oldest size : ${oldest.size}")
+
+    println("the maximum aged hero: ${heroes.maxBy { it.age }?.name}")
+    println("Check if all the characters' age is less than 50: ${heroes.all { it.age < 50 }}") //should print false
+    println("Check if there is any women: ${heroes.any { it.gender == FEMALE }}") //should print true
 }
 
 data class Hero(
