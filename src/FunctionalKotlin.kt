@@ -20,6 +20,11 @@ fun main() {
     println("the maximum aged hero: ${heroes.maxBy { it.age }?.name}")
     println("Check if all the characters' age is less than 50: ${heroes.all { it.age < 50 }}") //should print false
     println("Check if there is any women: ${heroes.any { it.gender == FEMALE }}") //should print true
+
+    val mapByName: Map<String, Hero> = heroes.associateBy { it.name }
+    println("the age of Frenchy is: ${mapByName["Frenchy"]?.age}") //42
+    println("the age of Frenchy is: ${mapByName.getValue("Frenchy").age}") //42 --> note, we do not need to safe operator here
+
 }
 
 data class Hero(
