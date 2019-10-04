@@ -26,11 +26,15 @@ fun main() {
     println("the age of Frenchy is: ${mapByName.getValue("Frenchy").age}") //42 --> note, we do not need to safe operator here
 
     val allPossiblePairsFromHero = heroes.flatMap { first: Hero ->
-            heroes.map { second -> first to second }
-        }
+        heroes.map { second -> first to second }
+    }
     val (older, younger) = allPossiblePairsFromHero.maxBy { it.first.age - it.second.age }!!
     println(older.age)
     println(younger.age)
+    val sum: (Int, Int) -> Int = { x, y -> x + y }
+    val isEven: (Int) -> Boolean =
+        { i: Int -> i % 2 == 0 }
+    println(isEven(42)) // should print true
 
 }
 
