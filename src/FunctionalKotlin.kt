@@ -46,3 +46,10 @@ data class Hero(
 
 enum class Gender { MALE, FEMALE }
 
+fun isEven(i: Int): Boolean = i % 2 == 0
+val predicate = ::isEven //compiler is okay
+val predicate1 = { i: Int -> isEven(i) }
+val list = listOf(1, 2, 3, 4)
+val action = list.any(::isEven) //returns true as 2 and 4 are even
+val action1 = list.filter(::isEven) // it will filter even elements and save --> [2,4]
+
