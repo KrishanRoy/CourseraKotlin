@@ -35,7 +35,8 @@ fun main() {
     val isEven: (Int) -> Boolean =
         { i: Int -> i % 2 == 0 }
     println(isEven(42)) // should print true
-
+    val Arka = Person("Arka", 24)
+    agePredicate(Arka, 19) // prints true
 }
 
 data class Hero(
@@ -52,4 +53,10 @@ val predicate1 = { i: Int -> isEven(i) }
 val list = listOf(1, 2, 3, 4)
 val action = list.any(::isEven) //returns true as 2 and 4 are even
 val action1 = list.filter(::isEven) // it will filter even elements and save --> [2,4]
+
+class Person(val name: String, val age: Int) {
+    fun isOlder(ageLimit: Int) = age > ageLimit
+}
+
+val agePredicate = Person::isOlder
 
