@@ -37,6 +37,8 @@ fun main() {
     println(isEven(42)) // should print true
     val Arka = Person("Arka", 24)
     agePredicate(Arka, 19) // prints true
+
+    println(duplicateNonZero(listOf(3, 0, 5))) // will surprisingly return an empty list --> []
 }
 
 data class Hero(
@@ -60,3 +62,10 @@ class Person(val name: String, val age: Int) {
 
 val agePredicate = Person::isOlder
 
+//---------
+fun duplicateNonZero(list: List<Int>): List<Int> {
+    return list.flatMap {
+        if (it == 0) return listOf()
+        listOf(it, it)
+    }
+}
