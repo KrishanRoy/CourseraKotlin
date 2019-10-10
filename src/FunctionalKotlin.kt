@@ -39,6 +39,12 @@ fun main() {
     agePredicate(Arka, 19) // prints true
 
     println(duplicateNonZero(listOf(3, 0, 5))) // will surprisingly return an empty list --> []
+    println(duplicateNonZero1(listOf(3, 0, 8)))
+    iteratingList(listOf(3, 5, 0, 9))
+    println()
+    iteratingListSameAsAbove(listOf(3, 5, 0, 9))
+
+
 }
 
 data class Hero(
@@ -65,7 +71,29 @@ val agePredicate = Person::isOlder
 //---------
 fun duplicateNonZero(list: List<Int>): List<Int> {
     return list.flatMap {
-        if (it == 0) return listOf()
+        if (it == 0) return listOf() // this return will return from the function and not from the lambda
         listOf(it, it)
     }
 }
+
+fun duplicateNonZero1(list: List<Int>): List<Int> {
+    return list.flatMap {
+        if (it == 0) return@flatMap listOf<Int>() // this return will return the else case as
+        listOf(it, it)
+    }
+}
+
+fun iteratingList(list: List<Int>) {
+    list.forEach {
+        if (it == 0) return@forEach
+        print(it)
+    }
+}
+
+fun iteratingListSameAsAbove(list: List<Int>) { // here continue works the same as iteratingList
+    for (element in list) {
+        if (element == 0) continue
+        print(element)
+    }
+}
+

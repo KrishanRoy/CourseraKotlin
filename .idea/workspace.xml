@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="38aa58cb-d3b9-43d5-90d1-812b69b02710" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$agePredicate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$agePredicate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FunctionalKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalKotlin.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
