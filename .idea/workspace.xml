@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38aa58cb-d3b9-43d5-90d1-812b69b02710" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$agePredicate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$agePredicate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunctionalKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.FunctionalKotlinKt">
+  <component name="RunManager" selected="Kotlin.ListExtentionKt">
     <configuration name="ControlStructureKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="BasicKotlin" />
       <option name="VM_PARAMETERS" />
@@ -78,8 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListExtentionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="BasicKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ListExtentionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ListExtentionKt" />
         <item itemvalue="Kotlin.FunctionalKotlinKt" />
         <item itemvalue="Kotlin.ControlStructureKt" />
       </list>
