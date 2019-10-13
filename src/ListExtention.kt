@@ -12,6 +12,9 @@ fun main() {
     val rectangle = Rectangle(2, 3)
     println(rectangle.isSquare) // should print false
     println("$foo1$foo1$foo2$foo2") // should print "calculating the answer 3 times"
+    val lengthCounter = LengthCounter()
+    lengthCounter.addWord("Hi")
+    println(lengthCounter.counter) //getter is called under the hood and it should print 2 (length of "Hi" String)
 }
 
 fun List<Int>.allNonZero() = all { it != 0 }
@@ -38,3 +41,10 @@ val foo2: Int
         println("calculating the answer..")
         return 42
     }
+class LengthCounter{
+    var counter: Int = 0
+    fun addWord(word: String){
+        counter += word.length
+    }
+}
+
