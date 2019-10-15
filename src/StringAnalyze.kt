@@ -10,6 +10,7 @@ object StringAnalyze {
         var result = -1
         val divisor: String
         when {
+            s == "" || t == "" -> return result
             t.length > s.length -> return result
             s == t -> return t.length
             areBothDivisorsSame(s, t) -> {
