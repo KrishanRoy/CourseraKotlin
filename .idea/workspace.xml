@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="38aa58cb-d3b9-43d5-90d1-812b69b02710" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinSum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExtentionProperties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/ExtentionProperties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListExtention.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/ListExtention.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,9 @@
       <list>
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -25,13 +27,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QhcFKplhmNMo5W3j3nCXDKZyjm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/extensions" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,27 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MinSumKt">
-    <configuration name="StringAnalyze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringAnalyze" />
-      <module name="BasicKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListExtentionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ListExtentionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.extensions.MutableExtensionPropertyKt">
     <configuration name="MinSumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="BasicKotlin" />
       <option name="VM_PARAMETERS" />
@@ -79,27 +68,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringAnalyze" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="StringAnalyzeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="BasicKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="StringAnalyze" />
+      <option name="MAIN_CLASS_NAME" value="StringAnalyzeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnstoppableVarKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="UserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="BasicKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="UnstoppableVarKt" />
+      <option name="MAIN_CLASS_NAME" value="UserKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extensions.ExtentionPropertiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="BasicKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="extensions.ExtentionPropertiesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extensions.MutableExtensionPropertyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="BasicKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="extensions.MutableExtensionPropertyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.extensions.MutableExtensionPropertyKt" />
+        <item itemvalue="Kotlin.extensions.ExtentionPropertiesKt" />
+        <item itemvalue="Kotlin.UserKt" />
+        <item itemvalue="Kotlin.StringAnalyzeKt" />
         <item itemvalue="Kotlin.MinSumKt" />
-        <item itemvalue="Kotlin.StringAnalyze" />
-        <item itemvalue="Application.StringAnalyze" />
-        <item itemvalue="Kotlin.UnstoppableVarKt" />
-        <item itemvalue="Kotlin.ListExtentionKt" />
       </list>
     </recent_temporary>
   </component>
