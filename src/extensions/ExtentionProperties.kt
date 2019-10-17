@@ -1,3 +1,5 @@
+package extensions
+
 /**
  * similar to extension functions, we can use extension properties with
  * similar syntax like extension functions.
