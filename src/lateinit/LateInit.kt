@@ -25,3 +25,9 @@ fun main(){
     MyClass().initializationLogic() //false
                                     //true
 }
+class Person(name: String){  //-->class Person(val name: String)
+    val name: String
+init{
+    this.name = name
+}
+}
