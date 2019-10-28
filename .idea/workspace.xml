@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38aa58cb-d3b9-43d5-90d1-812b69b02710" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/ParentChild.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/ParentChild.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,15 +52,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.inheritance.ParentChild2Kt">
-    <configuration name="extensions.MutableExtensionPropertyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.enums.EnumExplorationKt">
+    <configuration name="enums.EnumExplorationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="BasicKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="extensions.MutableExtensionPropertyKt" />
+      <option name="MAIN_CLASS_NAME" value="enums.EnumExplorationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.enums.EnumExplorationKt" />
         <item itemvalue="Kotlin.inheritance.ParentChild2Kt" />
         <item itemvalue="Kotlin.inheritance.ParentChildKt" />
         <item itemvalue="Kotlin.lateinit.LateInitKt" />
         <item itemvalue="Kotlin.lazy.LazyPropertyKt" />
-        <item itemvalue="Kotlin.extensions.MutableExtensionPropertyKt" />
       </list>
     </recent_temporary>
   </component>
