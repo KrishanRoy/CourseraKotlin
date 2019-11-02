@@ -8,6 +8,14 @@ fun <T> List<T>.filter(predicate: (T) -> Boolean): List<T> {
     return destination
 }
 
+//comparable upper bound
+fun <T : Comparable<T>> maxOf(first: T, second: T): T {
+    return if (first > second) first else second
+}
+
 fun use3(ints: List<Int?>) {
     ints.filter { it != null && it > 0 }
+}
+fun main(){
+    println(maxOf(5, 8)) //should print 8
 }
