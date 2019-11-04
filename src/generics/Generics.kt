@@ -16,6 +16,16 @@ fun <T : Comparable<T>> maxOf(first: T, second: T): T {
 fun use3(ints: List<Int?>) {
     ints.filter { it != null && it > 0 }
 }
-fun main(){
+
+fun main() {
     println(maxOf(5, 8)) //should print 8
+}
+
+fun List<Int>.average(): Double {
+    return 1.9
+}
+
+@JvmName("averageOfDouble")
+fun List<Double>.average(): Double {
+    return 5.9
 }
