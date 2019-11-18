@@ -19,6 +19,7 @@ fun use3(ints: List<Int?>) {
 
 fun main() {
     println(maxOf(5, 8)) //should print 8
+
 }
 
 fun List<Int>.average(): Double {
@@ -29,3 +30,4 @@ fun List<Int>.average(): Double {
 fun List<Double>.average(): Double {
     return 5.9
 }
+
