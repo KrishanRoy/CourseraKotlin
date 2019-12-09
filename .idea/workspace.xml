@@ -3,58 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38aa58cb-d3b9-43d5-90d1-812b69b02710" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/ControlStructureKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/ControlStructureKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Evaluation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Evaluation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FaceBookUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FaceBookUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$agePredicate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$agePredicate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$main$isEven$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$main$isEven$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$main$sum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$main$sum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt$predicate1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/FunctionalKotlinKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/SubscribingUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/SubscribingUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/UnstoppableVarKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/UnstoppableVarKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/UserKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/UserKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/constant/JvmStaticKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/constant/JvmStaticKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/constant/myClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/constant/myClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/enums/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/enums/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/enums/EnumExplorationKt$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/enums/EnumExplorationKt$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/enums/EnumExplorationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/enums/EnumExplorationKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/ExtentionPropertiesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/ExtentionPropertiesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/LengthCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/LengthCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/ListExtentionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/ListExtentionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/MutableExtensionPropertyKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/MutableExtensionPropertyKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/extensions/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/generics/GenericsKt$use3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/generics/GenericsKt$use3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/generics/GenericsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/generics/GenericsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Child1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Child1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Child2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Child2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Parent1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Parent1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Parent2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/Parent2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/ParentChild2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/ParentChild2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/ParentChildKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/inheritance/ParentChildKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/InternalComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/InternalComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/LateInitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/LateInitKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyClass$initializationLogic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyClass$initializationLogic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyClass$initializationLogic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyClass$initializationLogic$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/MyData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lateinit/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lazy/LazyPropertyKt$lazyValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lazy/LazyPropertyKt$lazyValue$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lazy/LazyPropertyKt$lazyValue1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lazy/LazyPropertyKt$lazyValue1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/lazy/LazyPropertyKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/lazy/LazyPropertyKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/Expr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/SealedClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/SealedClassKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/sealed/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/operators/OperatorsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/operators/OperatorsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operators/Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/operators/Operators.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
