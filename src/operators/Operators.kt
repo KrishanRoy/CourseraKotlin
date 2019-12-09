@@ -1,6 +1,7 @@
 package operators
 
 import java.util.*
+import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
 fun getStringLength(obj: Any): Int? {
@@ -18,6 +19,7 @@ fun main() {
     val inputA = arrayOf("johny", "tonny", "akhtar", "Roni", "Justine", "Sherrif")
     val inputB = arrayOf("Johny", "jeni", "Uma", "Shoma", "Rajat", " Roni ")
     arrayIntersects2(inputA, inputB)
+    println(mostChar("aabbbcccddddaa"))
 }
 
 fun findSimilar(a: Array<Int>, b: IntArray): Array<Int>? {
@@ -56,13 +58,35 @@ fun arrayIntersects2(inputA: Array<String>, inputB: Array<String>) {
     //hashset --> Set can take the value, it also has .contains which has a runtime of O(1)
     //list --> List does not have such thing, so not appropriate in this case
     val set = HashSet<String>()
-    for (s in inputA){
+    for (s in inputA) {
         set.add(s.toLowerCase().trim())
     }
-
     for (s in inputB) {
         if (set.contains(s.toLowerCase().trim())) {
-            println(s)
+            println(s.trim())
         }
     }
+}
+
+fun mostChar(input: String): Char {
+    if (input.isEmpty()) {
+        return 'a'
+    }
+    var res: Char = input[0]
+    val map = HashMap<Char, Int>()
+    input.toCharArray().forEachIndexed { _, char ->
+        if (map.containsKey(char)) {
+            map[char]?.plus(1)?.let { map.put(char, it) }
+        } else {
+            map[char] = 1
+        }
+    }
+    var best = 1
+    map.entries.forEachIndexed { _, mutableEntry ->
+        if (mutableEntry.value > best) {
+            best = mutableEntry.value
+            res = mutableEntry.key
+        }
+    }
+    return res
 }
